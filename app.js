@@ -1,4 +1,12 @@
-var fs = require("fs");
-let readableStr = fs.createReadStream('test.txt', 'utf-8');
-let writeableStr = fs.createWriteStream('new.txt');
-readableStr.pipe(writeableStr);
+const express = require("express");
+const app = express();
+
+app.get('/',(req,res)=>{
+ res.send('Home Page');
+});
+
+app.get('/contact',(req,res)=>{
+ res.send('Contact Page');
+});
+
+app.listen(3000);

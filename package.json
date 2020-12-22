@@ -1,0 +1,23 @@
+{
+  "name": "nodeJS",
+  "version": "1.0.0",
+  "main": "001 - Directory And File Name.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amm834/nodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amm834/nodeJS/issues"
+  },
+  "homepage": "https://github.com/amm834/nodeJS#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
